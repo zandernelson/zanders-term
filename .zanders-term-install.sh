@@ -36,7 +36,7 @@ elif [ "$OS" = "LINUX_DEBIAN" ]; then
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 elif [ "$OS" = "LINUX_REDHAT" ]; then
-  
+
   # INSTALL HOMEBREW
   yum groupinstall 'Development Tools' -y
   yum install procps-ng curl file git -y
